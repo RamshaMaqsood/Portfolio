@@ -63,34 +63,34 @@
     font-family: sans-serif;
 }
 
-.home {
+#home {
     padding-bottom: 50px;
     padding-top: 80px;
 }
 
-.home .info {
+#home .info {
     margin-left: 7%;
     margin-top: 7%;
     margin-bottom: 7%;
 }
 
-.home .info h1 {
+#home .info h1 {
     font-size: 50px;
     color: #D3D3D3;
 }
 
-.home .info h3 {
+#home .info h3 {
     font-size: 25px;
     letter-spacing: 3px;
     line-height: 30px;
     color: #c3c2c2;
 }
 
-.home .info span {
+#home .info span {
     color: rgb(104, 173, 173);
 }
 
-.home .info a {
+#home .info a {
     text-decoration: none;
     margin: 26px 0;
     margin-bottom: 10px;
@@ -103,14 +103,14 @@
     font-weight: bolder;
 }
 
-.home .info a:hover {
+#home .info a:hover {
     background-color: #c5c2c2;
     color: rgb(104, 173, 173);
     transform: scale(1.05);
     transition: 0.2s;
 }
 
-.home .image {
+#home .image {
     width: 40%;
     height: 80%;
     position: absolute;
@@ -118,7 +118,7 @@
     bottom: 0;
 }
 
-.home .image img {
+#home .image img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -130,23 +130,23 @@
     margin-bottom: 10px;
 }
 
-.home .image:hover .girl {
+#home .image:hover .girl {
     left: 55%;
 }
 
-.home .icons a {
+#home .icons a {
     text-decoration: none;
     color: rgb(164, 174, 174);
 }
 
-.home .icons ion-icon {
+#home .icons ion-icon {
     margin-left: 7%;
     margin-right: -60px;
     color: rgb(164, 174, 174);
     font-size: 40px;
 }
 
-.home .icons ion-icon:hover {
+#home .icons ion-icon:hover {
     color: rgb(104, 173, 173);
     transform: scale(1.05);
     transition: 0.2s;

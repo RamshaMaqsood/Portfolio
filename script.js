@@ -25,60 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const form = document.getElementById('contact-form');
-//     const nameInput = document.getElementById('name');
-//     const phoneInput = document.getElementById('phone');
-//     const emailInput = document.getElementById('email');
-//     const messageInput = document.getElementById('message');
-    
-//     const nameError = document.getElementById('name-error');
-//     const phoneError = document.getElementById('phone-error');
-//     const emailError = document.getElementById('email-error');
-//     const messageError = document.getElementById('message-error');
-
-//     form.addEventListener('submit', (event) => {
-//         let isValid = true;
-
-//         nameError.classList.remove('active');
-//         phoneError.classList.remove('active');
-//         emailError.classList.remove('active');
-//         messageError.classList.remove('active');
-
-//         if (nameInput.value.trim() === '') {
-//             nameError.classList.add('active');
-//             isValid = false;
-//         }
-
-//         const phonePattern = /^[0-9]{3}-[0-9]{8}$/;
-//         if (!phonePattern.test(phoneInput.value)) {
-//             phoneError.classList.add('active');
-//             isValid = false;
-//         }
-
-    
-//         if (!emailInput.value || !emailInput.value.includes('@')) {
-//             emailError.classList.add('active');
-//             isValid = false;
-//         }
-
-    
-//         if (messageInput.value.trim() === '') {
-//             messageError.classList.add('active');
-//             isValid = false;
-//         }
-
-
-//         if (isValid) {
-//             event.preventDefault();
-//             alert('Form submitted successfully!');
-//             form.reset();
-//         }
-
-//     });
-// });
-
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contact-form');
     const nameInput = document.getElementById('name');
