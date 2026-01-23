@@ -66,6 +66,12 @@ export default function Projects() {
       img: "/images/videography.jpg",
       link: "https://videography-template.vercel.app/",
     },
+    {
+      title: "Gym Membership System",
+      desc: "MERN app to manage memberships, subscriptions, and member profiles.",
+      img: "/images/gym.jfif",
+      link: "https://gym-membership-frontend.vercel.app/",
+    },
   ];
 
   return (

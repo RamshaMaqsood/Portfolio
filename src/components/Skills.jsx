@@ -1,13 +1,29 @@
 export default function Skills() {
   const skills = [
-    "React.js",
-    "JavaScript",
-    "TailwindCSS",
-    "HTML5",
+    // "React.js",
+    // "JavaScript",
+    // "TailwindCSS",
+    // "HTML5",
+    // "CSS3",
+    // "Bootstrap",
+    // "Git & GitHub",
+    // "Responsive Design",
+        "HTML5",
     "CSS3",
-    "Bootstrap",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Redux / Context API",
+    "React Router",
+    "TailwindCSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB / Mongoose",
+    "JWT Authentication",
+    "REST APIs",
     "Git & GitHub",
-    "Responsive Design",
+    "Postman",
+    "Deployment (Vercel)"
+
   ];
 
   return (
