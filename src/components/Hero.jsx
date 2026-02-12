@@ -10,7 +10,7 @@ export default function Hero() {
           Hi, I'm Ramsha 👋
         </h1>
         <p className="text-lg text-gray-200 max-w-xl opacity-0 animate-[fadeIn_1s_1s_ease-in_forwards]">
-          I’m a Frontend React Developer creating clean, modern, and elegant web interfaces using React and TailwindCSS.
+          I’m a MERN Stack Developer building clean, modern, and high-performance web applications using React, Node.js, Express, MongoDB, and TailwindCSS.
         </p>
 
         <div className="mt-6 flex gap-4 opacity-0 animate-[slideUp_1s_2s_ease-out_forwards]">
